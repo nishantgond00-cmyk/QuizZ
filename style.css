@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #000;
+  color: #fff;
+}
+
+.app {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  font-size: 16px;
+  background: #1e90ff;
+  border: none;
+  color: white;
+  border-radius: 6px;
+}
+
+.option {
+  background: #222;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+}
+
+.option.correct {
+  background: green;
+}
+
+.option.wrong {
+  background: red;
+}
